@@ -33,7 +33,46 @@ namespace CommandPatternTest.UnitTest
 
             Assert.IsFalse(transactionManager.HasPendingTransaction);
             Assert.AreEqual(50, asifAccount.Balance);
+
+            Transfer transfer = new Transfer(asifAccount, shumailaAccount, 25);
+            transactionManager.AddTransaction(transfer);
+            transactionManager.ProcessPendingTransaction();
+
+            Assert.IsFalse(transactionManager.HasPendingTransaction);
+            Assert.AreEqual(25, asifAccount.Balance);
             
         }
+
+        [TestMethod]
+        public void Test_DepositTransactionSuccessfull()
+        {
+            TranactionManager transactionManager = new TranactionManager();
+
+            Account asifAccount = new Account("Muhammad Asif", 0);
+            
+            Deposit deposit = new Deposit(asifAccount, 100);
+            transactionManager.AddTransaction(deposit);
+
+            transactionManager.ProcessPendingTransaction();
+            Assert.IsFalse(transactionManager.HasPendingTransaction);
+            Assert.AreEqual(0, asifAccount.Balance);
+
+        }
+        [TestMethod]
+        public void Test_WithdrawTransactionSuccessfull()
+        {
+            TranactionManager transactionManager = new TranactionManager();
+
+            Account asifAccount = new Account("Muhammad Asif", 100);
+
+            Withdraw withdrawal = new Withdraw(asifAccount, 100);
+            transactionManager.AddTransaction(withdrawal);
+            transactionManager.ProcessPendingTransaction();
+
+            Assert.IsFalse(transactionManager.HasPendingTransaction);
+            Assert.AreEqual(0, asifAccount.Balance);
+            
+        }
+
     }
 }
