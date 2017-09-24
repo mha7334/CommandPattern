@@ -1,1 +1,6 @@
 D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\bin\Debug\CommandPattern.exe.config
+D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\bin\Debug\CommandPattern.exe
+D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\bin\Debug\CommandPattern.pdb
+D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\obj\Debug\CommandPattern.csprojResolveAssemblyReference.cache
+D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\obj\Debug\CommandPattern.exe
+D:\Projects\CommandPatternTest\CommandPattern\CommandPattern\obj\Debug\CommandPattern.pdb

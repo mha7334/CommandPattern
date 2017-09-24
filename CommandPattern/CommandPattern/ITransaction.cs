@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace CommandPattern
 {
-    class Program
+    public interface ITransaction
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        bool IsCompleted { get; set; }
+        void Execute();
     }
 }

@@ -1,0 +1,8 @@
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\bin\Debug\CommandPatternTest.UnitTest.dll
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\bin\Debug\CommandPatternTest.UnitTest.pdb
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\bin\Debug\CommandPattern.exe
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\bin\Debug\CommandPattern.pdb
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\obj\Debug\CommandPatternTest.UnitTest.csprojResolveAssemblyReference.cache
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\obj\Debug\CommandPatternTest.UnitTest.dll
+D:\Projects\CommandPatternTest\CommandPattern\CommandPatternTest.UnitTest\obj\Debug\CommandPatternTest.UnitTest.pdb
